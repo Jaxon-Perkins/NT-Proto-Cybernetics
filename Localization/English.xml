@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+    <!--ITEMS-->
+    <entityname.subdermal_thoracic_1>S.T.A.R.</entityname.subdermal_thoracic_1>
+    <entitydescription.subdermal_thoracic_1>The Subdermal Thoracic Armour Reinforcment is a series of connected, overlaping metal plates which conform to the ribcage as it moves during breathing. Does not prevent blunt-force trauma to the chest or damage to other parts of the body</entitydescription.subdermal_thoracic_2>
+    
+    <entityname.subdermal_thoracic_2>C.O.R.E.</entityname.subdermal_thoracic_2>
+    <entitydescription.subdermal_thoracic_2>The Cardiopulmonary Overlay & Ribcage Exoskeleton, while technically not an exoskeleton, provides superb protection none-the-less against most forms of attack. Is also the attatchment point for the optional A.E.G.I.S. plate.</entitydescription.subdermal_thoracic_2>
+
+    <entityname.subdermal_abdomen>A.E.G.I.S.</entityname.subdermal_abdomen>
+    <entitydescription.subdermal_abdomen>The Abdominal Extended Graft Integrated System is an additional plate attatched to a C.O.R.E. in order to shield the belly from damage. Is similar in protection to the S.T.A.R. but for the kidneys and liver</entitydescription.subdermal_abdomen>
+    <!--AFFLICTIONS-->
+
+</infotexts>
