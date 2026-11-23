@@ -1,4 +1,4 @@
-# Barotrauma-NT-Carapace
+# NT Proto-Cybernetics
 so, this mod is going to add various implants for protecting organs and bones alike
 
 a bit of naming convention: the system of implants as a whole are going to be referred to as "V.O.S.S." which stands for "Vital Organ Safeguard System" (there are going to be a lot of acronyms).
