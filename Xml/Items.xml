@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+    <!-- ************************* -->
+    <!-- S.T.A.R. -->
+    <Item name="" identifier="subdermal_thoracic_1" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery" description="" useinhealthinterface="True" scale="0.4">
+        <Price baseprice="1300" soldbydefault="false">
+            <Price storeidentifier="merchantresearch" sold="true" minavailable="1" />
+        </Price>
+        <PreferredContainer primary="toxincontainer" />
+        <PreferredContainer primary="locker" />
+        <Fabricate suitablefabricators="fabricator" requiredtime="50">
+            <RequiredSkill identifier="weapons" level="30" />
+            <RequiredSkill identifier="medical" level="50" />
+            <RequiredItem identifier="titaniumaluminiumalloy" amount="1" />
+            <RequiredItem identifier="steel" amount="3" />
+            <RequiredItem identifier="aluminum" amount="1" />
+            <RequiredItem identifier="rubber" amount="2" />
+        </Fabricate>
+        <Deconstruct time="20">
+            <Item identifier="steel" amount="2" />
+            <Item identifier="rubber" amount="1" />
+        </Deconstruct>
+        <!--SPRITES NEEDED--><Sprite texture="%ModDir%/Images/" sourcerect="" origin="" depth="" />
+        <!--SPRITES NEEDED--><InventoryIcon texture="%ModDir%/Images/" sourcerect="" origin="" />
+        <Body width="114" height="23" density="50" />
+        <MeleeWeapon slots="RightHand+LeftHand,Any" controlpose="true" aimpos="45,10" handle1="-10,0" handle2="0,5" holdangle="60" reload="1" range="100" combatpriority="20" msg="ItemMsgPickUpSelect">
+            <Attack structuredamage="7" itemdamage="5" targetimpulse="10">
+                <Affliction identifier="blunttrauma" strength="10" />
+                <Affliction identifier="stun" strength="0.5" />
+                <Sound file="Content/Items/Weapons/Smack2.ogg" range="800" />
+            </Attack>
+        </MeleeWeapon>
+        <SkillRequirementHint identifier="medical" level="60" />
+    </Item>
+    <!-- ************************* -->
+    <!-- C.O.R.E. -->
+    <Item name="" identifier="subdermal_thoracic_2" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery" description="" useinhealthinterface="True" scale="0.4">
+        <Price baseprice="1800" soldbydefault="false">
+            <Price storeidentifier="" sold="" minavailable="0" />
+        </Price>
+        <PreferredContainer primary="toxincantainer" />
+        <PreferredContainer primary="locker" />
+        <Fabricate suitablefabricators="fabrication" requiredtime="90">
+            <RequiredSkill identifier="weapons" level="50" />
+            <RequiredSkill identifier="medical" level="70" />
+            <RequiredItem identifier="titaniumaluminiumalloy" amount="2" />
+            <RequiredItem identifier="steel" amount="4" />
+        </Fabricate>
+        <Deconstruct time="40">
+            <Item identifier="titaniumaluminiumalloy" amount="1" />
+            <Item identifier="steel" amount="2" />
+        </Deconstruct>
+        <!--SPRITES NEEDED--><Sprite texture="%ModDir%/Images/" sourcerect="" origin="" depth="" />
+        <!--SPRITES NEEDED--><InventoryIcon texture="%ModDir%/Images/" sourcerect="" origin="" />
+        <Body width="114" height="23" density="50" />
+        <MeleeWeapon slots="RightHand+LeftHand,Any" controlpose="true" aimpos="45,10" handle1="-10,0" handle2="0,5" holdangle="60" reload="1" range="100" combatpriority="20" msg="ItemMsgPickUpSelect">
+            <Attack structuredamage="10" itemdamage="5" targetimpulse="10">
+                <Affliction identifier="blunttrauma" strength="10" />
+                <Affliction identifier="stun" strength="0.5" />
+                <Sound file="Content/Items/Weapons/Smack2.ogg" range="800" />
+            </Attack>
+        </MeleeWeapon>
+        <SkillRequirementHint identifier="medical" level="70" />
+    </Item>
+    <!-- ************************* -->
+    <!-- A.E.G.I.S. -->
+    <Item name="" identifier="subdermal_abdomen" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery" description="" useinhealthinterface="True" scale="0.4">
+        <Price baseprice="1100" soldbydefault="false">
+            <Price storeidentifier="merchantresearch" sold="true" minavailable="0" />
+        </Price>
+        <PreferredContainer primary="toxincontainer" />
+        <PreferredContainer primary="locker" />
+        <Fabricate suitablefabricators="fabricator" requiredtime="40">
+            <RequiredSkill identifier="weapons" level="40" />
+            <RequiredSkill identifier="medical" level="55" />
+            <RequiredItem identifier="steel" amount="2" />
+            <RequiredItem identifier="aluminium" amount="2" />
+            <RequiredItem identifier="rubber" amount="2" />
+        </Fabricate>
+        <Deconstruct time="20">
+            <Item identifier="steel" amount="1" />
+            <Item identifier="aluminium" amount="1" />
+            <Item identifier="rubber" amount="1" />
+        </Deconstruct>
+        <!--SPRITES NEEDED--><Sprite texture="%ModDir%/Images/" sourcerect="" origin="" depth="" />
+        <!--SPRITES NEEDED--><InventoryIcon texture="%ModDir%/Images/" sourcerect="" origin="" />
+        <Body width="114" height="23" density="50" />
+        <MeleeWeapon slots="RightHand+LeftHand,Any" controlpose="true" aimpos="45,10" handle1="-10,0" handle2="0,5" holdangle="60" reload="1" range="100" combatpriority="20" msg="ItemMsgPickUpSelect">
+            <Attack structuredamage="10" itemdamage="5" targetimpulse="10">
+                <Affliction identifier="blunttrauma" strength="10" />
+                <Affliction identifier="stun" strength="0.5" />
+                <Sound file="Content/Items/Weapons/Smack2.ogg" range="800" />
+            </Attack>
+        </MeleeWeapon>
+        <SkillRequirementHint identifier="medical" level="50" />
+</Items>
