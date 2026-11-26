@@ -64,7 +64,7 @@
     </Item>
     <!-- ************************* -->
     <!-- A.E.G.I.S. -->
-    <Item name="" identifier="subdermal_abdomen" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery" description="" useinhealthinterface="True" scale="0.4">
+    <Item name="" identifier="subdermal_abdominal" category="Equipment" cargocontaineridentifier="mediccrate" Tags="smallitem,medical,surgery" description="" useinhealthinterface="True" scale="0.4">
         <Price baseprice="1100" soldbydefault="false">
             <Price storeidentifier="merchantresearch" sold="true" minavailable="0" />
         </Price>
@@ -93,4 +93,5 @@
             </Attack>
         </MeleeWeapon>
         <SkillRequirementHint identifier="medical" level="50" />
+    </Item>
 </Items>
