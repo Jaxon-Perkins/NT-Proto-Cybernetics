@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="NT Proto-Cybernetics" corepackage="false" modversion="0.0.2" gameversion="1.15.33.2">
+    
+    <!-- file template -->
+    <Afflictions file="%ModDir%/Xml/" />
+
+</contentpackage>
