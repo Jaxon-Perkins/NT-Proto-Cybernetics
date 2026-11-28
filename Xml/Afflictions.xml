@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <Afflictions>
+    <!-- icons are a WIP, so <Icon> will be empty for the time being -->
+    <!-- ************************* -->
+    <!-- S.T.A.R. -->
+    <Affliction name="" description="" identifier="subdermal_thoracic_aff1" healableinmedicalclinic="false" targets="human" limbspecific="True" type="resistance" isbuff="True" showinhealthscannerthreshold="999" showiconthreshold="0" maxstrength="100">
+        <Icon />
+        <Effect minstrength="0" maxstrength="100">
+            <StatValue stattype="">
+        </Effect>
+    </Affliction>
+    <!-- ************************* -->
+    <!-- C.O.R.E. -->
+    <Affliction name="" description="" identifier="subdermal_thoracic_aff2" healableinmedicalclinic="false" targets="human" limbspecific="True" type="resistance" isbuff="True" showinhealthscannerthreshold="999" showiconthreshold="0" maxstrength="100">
+        <Icon />
+    </Affliction>
+    <!-- ************************* -->
+    <!-- A.E.G.I.S. -->
+    <Affliction  name="" description="" identifier="subdermal_abdominal_aff" healableinmedicalclinic="false" targets="human" limbspecific="True" type="resistance" isbuff="True" showinhealthscannerthreshold="999" showiconthreshold="0" maxstrength="100">
+        <Icon />
+    </Affliction>
+  </Affliction>
+</Override>
